@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>OpenTalon</string>
+	<key>CFBundleExecutable</key>
+	<string>OpenTalon</string>
+	<key>CFBundleIconFile</key>
+	<string>opentalon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.protomota.opentalon.native</string>
+	<key>CFBundleName</key>
+	<string>OpenTalon</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.44</string>
+	<key>CFBundleVersion</key>
+	<string>46</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>NSDesktopFolderUsageDescription</key>
+	<string>OpenTalon accesses task files, agent working folders, or backups you choose on your Desktop.</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>OpenTalon accesses task files, agent working folders, or backups you choose in Documents.</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>OpenTalon accesses files or backups you choose to import, export, or use with your agent in Downloads.</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>© Protomota</string>
+	<key>NSNetworkVolumesUsageDescription</key>
+	<string>OpenTalon accesses task files, agent working folders, or backups you choose on network drives.</string>
+	<key>NSRemovableVolumesUsageDescription</key>
+	<string>OpenTalon accesses task files, agent working folders, or backups you choose on external drives.</string>
+	<key>SUAutomaticallyUpdate</key>
+	<true/>
+	<key>SUEnableAutomaticChecks</key>
+	<true/>
+	<key>SUFeedURL</key>
+	<string>https://opentalon.ai/appcast.xml</string>
+	<key>SUPublicEDKey</key>
+	<string>qnauIrFVDBk2mBIlFP1SJolNzykSkZ5r0v5EY+WE8t0=</string>
+</dict>
+</plist>

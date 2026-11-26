@@ -1,0 +1,23 @@
+name: Native app checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: macos-15
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Select Xcode with Foundation Models
+        run: sudo xcode-select --switch /Applications/Xcode_26.2.app/Contents/Developer
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '25'
+      - run: node --test native/runtime/*.test.cjs native/integration.test.cjs
+        env:
+          OPENTALON_TEST_ROOT: ${{ runner.temp }}/opentalon-tests
+      - run: swift test --package-path native/CompanionCore
