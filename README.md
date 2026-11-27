@@ -11,7 +11,7 @@
   <a href="#connect-codex-and-claude-through-mcp">MCP setup</a> ·
   <a href="#send-a-task-to-an-agent">Send to agent</a> ·
   <a href="#build-the-mac-app">Build it yourself</a> ·
-  <a href="LICENSE">MIT license</a>
+  <a href="LICENSE">public domain (Unlicense)</a>
 </p>
 
 ---
@@ -119,9 +119,9 @@ History is stored in the Mac's SQLite database and both full backup formats. Mob
   <tr><td><img src="docs/screenshots/mobile-bug-task.webp" alt="Bug task details and quick actions on iPhone" width="340"></td><td><img src="docs/screenshots/mobile-task-history.webp" alt="Task revision history synced from Mac on iPhone" width="340"></td></tr>
 </table>
 
-## Open source under MIT
+## Open source, public domain (Unlicense)
 
-OpenTalon is free, and its source is open under the [MIT license](LICENSE). Use it, change it, ship it, sell it. Third-party components keep their own licenses.
+OpenTalon is free, and its source is open under the [public domain (Unlicense)](LICENSE). Use it, change it, ship it, sell it. Third-party components keep their own licenses.
 
 ---
 
@@ -129,7 +129,7 @@ OpenTalon is free, and its source is open under the [MIT license](LICENSE). Use 
   <a href="https://protomota.com"><img src="docs/readme/protomota-logo.png" width="40" height="40" alt="Protomota"></a>
 </p>
 
-<p align="center"><strong>Made by <a href="https://protomota.com">Protomota</a>.</strong> Free apps, open source under MIT.</p>
+<p align="center"><strong>Made by <a href="https://protomota.com">Protomota</a>.</strong> Free apps, open source and public domain (Unlicense).</p>
 
 <p align="center">
   <a href="https://opentalon.ai">OpenTalon</a> ·

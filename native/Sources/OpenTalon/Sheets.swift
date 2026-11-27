@@ -746,7 +746,7 @@ struct AboutView: View {
     }
 
     private var copyright: some View {
-        Text("© 2026 Protomota").font(.system(size: 12)).foregroundStyle(palette.muted).fixedSize()
+        Text("A Project ATOM project").font(.system(size: 12)).foregroundStyle(palette.muted).fixedSize()
     }
 
     private func support(_ title: String, _ detail: String, _ label: String, _ url: URL, _ icon: String) -> some View {

@@ -29,7 +29,7 @@
 	<key>NSHighResolutionCapable</key>
 	<true/>
 	<key>NSHumanReadableCopyright</key>
-	<string>© Protomota</string>
+	<string>A Project ATOM project</string>
 	<key>NSNetworkVolumesUsageDescription</key>
 	<string>OpenTalon accesses task files, agent working folders, or backups you choose on network drives.</string>
 	<key>NSRemovableVolumesUsageDescription</key>
